@@ -1,2 +1,2 @@
-ls -l | sed -n '2,${p;n;}'
+ls -l | sed -n 'p;n'
 

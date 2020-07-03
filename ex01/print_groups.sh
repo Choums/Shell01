@@ -1,1 +1,1 @@
-FT_USER= id -G -n $LOGNAME | tr " " "," | cat -e
+id -Gn $FT_USER | tr " " ","
